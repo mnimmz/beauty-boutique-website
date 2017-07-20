@@ -1,0 +1,212 @@
+body {
+  background-color: #BCD2E3;
+  margin: 0;
+  font-family: arial;
+}
+
+
+/* navigation */
+
+nav ul{
+  list-style: none;
+}
+
+nav ul{
+  display: inline-block;
+  float: right;
+}
+
+nav ul li{
+  float: left;
+  padding-left: 10px;
+  margin-top: 20px;
+
+}
+
+.nav-links{
+  color: white;
+  text-decoration: none;
+  border-right: 1px white solid;
+  padding-right: 10px;
+}
+
+.careers-link{
+  margin-right: 30px;
+  border-right: none;
+}
+
+.nav-links:hover{
+  color: #F0F0F0;
+}
+
+/* home page */
+
+.title-header{
+  clear: both;
+  text-align: center;
+  color: #FAFAFA;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#winter-collection-img{
+  margin: auto;
+  text-align: center;
+  display: block;
+  border: 6px solid #FAFAFA;
+}
+
+.winter-btn{
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  background-color: #000000;
+  padding: 15px;
+  font-family: arial;
+  font-weight: bold;
+  border: none;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.winter-btn:hover {
+  background: #ffffff;
+  color: #000000;
+
+}
+
+
+/* shop page */
+
+section.top-row{
+  text-align: center;
+}
+
+figure.clothes-top {
+  display: inline-block;
+  margin: 20px;
+}
+
+section.bottom-row{
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+figure.clothes-bottom{
+  display: inline-block;
+  margin: 20px;
+}
+
+figcaption {
+  padding-top: 20px;
+}
+
+figcaption a{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+figcaption a:hover {
+  color: #4a566e;
+}
+
+
+/* about page */
+
+.about-img {
+  text-align: center;
+  margin: auto;
+  display: block;
+  width: 31%;
+  padding-bottom: 20px;
+}
+
+blockquote {
+  padding-left: 19%;
+  padding-right: 19%;
+  padding-bottom: 90px;
+  padding-top: 39px;
+  font-family: arial;
+  line-height: 23px;
+}
+
+
+/* contact page */
+
+.call-header {
+  text-align: center;
+  line-height: 30px;
+  font-size: 17px;
+  margin-bottom: 150px;
+
+}
+.contact-header {
+  font-weight: bold;
+}
+
+.contact-info {
+
+}
+
+
+/* careers page */
+
+.careers-paragraph {
+  text-align: center;
+  margin: auto;
+  display: block;
+  width: 40%;
+  line-height: 20px;
+}
+
+a#openings {
+  margin: auto;
+  display: block;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  border: 2px solid #000000;
+  margin: 30px 600px 0 600px;
+  background-color: #000000;
+}
+
+a#openings:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+
+/* footer */
+
+footer{
+  text-align: center;
+  margin-top: 50px;
+  background: white;
+  padding: 20px;
+  bottom: 0;
+  font-family: arial;
+}
+
+.contact {
+  position: relative;
+  width: auto;
+}
+
+footer.home {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+
+}
+
+.careers-footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
